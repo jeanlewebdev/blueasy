@@ -1,0 +1,52 @@
+.bgrd{
+width: 400px;
+height: 400px;
+background-color:rgba(72, 112, 204, 0.507);
+position: relative;
+
+}
+.img-fluidy{
+    
+    max-width: 100%;
+    width: 100%;
+    padding-top: 1em;
+    height : 200px;
+
+}
+
+.bgrd2{
+    max-width: 100%;
+    width: 100%;
+    height : 100%;
+    background-color:rgba(72, 112, 204, 0.507);
+    position: absolute;
+    margin-top: 9%;
+ 
+    
+    }
+
+.plus-x{
+    background-color: white;
+    height: 33%;
+    width: 5%;
+    position: relative;
+    top:33%;
+    left: 45%;
+
+
+
+
+}
+
+.plus-y{
+    background-color: white;
+    height: 5%;
+    width: 33%;
+    position: relative;
+    top:15%;
+    left: 31%;
+
+
+
+
+}

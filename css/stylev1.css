@@ -1,0 +1,334 @@
+header {
+    background: url("images/heromono.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Full height */
+    height: 100vh;
+    min-height: 500px;
+ }
+.paddingIntro{
+
+padding-top: 350px;
+
+}
+.text {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.plushover{
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  left: 40%;
+  bottom:10%;
+  opacity: 0;
+}
+
+.plushover:hover{
+opacity: 1;
+
+}
+.img-fluidy{
+    
+    max-width: 100%;
+    width: 100%;
+    padding-top: 1em;
+    height : 200px;
+
+}
+.img-fluidy:hover{
+
+    opacity: 0.6;
+  
+    
+}
+
+.img-fluidy:hover .overlaide{
+
+    opacity :1;
+}
+
+.overlaide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity :0;
+    
+    
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(101, 139, 151, 0.418);
+    background-size: cover;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('business-computer-contemporary-218863.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+ .portfolio-background {
+    background-color: white;
+    background-size: cover;
+    padding-bottom: 6%;
+    /* Full height */
+ } 
+ .testimonial-background {
+    background-color: white;
+
+ } 
+
+nav{
+    background: rgba(45, 47, 45, 0.7) !important;
+
+
+}
+.nav2{
+    background: rgba(45, 47, 45, 0) !important;
+
+
+}
+.navbar-brand {
+
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.bleu{   
+
+    color: rgb(15, 202, 235)
+}
+
+.nav-link{
+    font-weight: bold;
+    color:  white;
+  
+}
+
+.liste{
+
+    display: flex;
+    list-style-type: none;
+
+}
+
+.homebutton{
+    border-style: solid;
+    border-color : rgb(15, 202, 235);
+    color: rgb(15, 202, 235);
+    padding-left: 2px;
+    padding-right: 2px;
+    
+
+}
+
+.lineh{
+
+    line-height: 200%;
+}
+
+
+.lineh2{
+
+    line-height: 150%;
+}
+
+.visitme{
+
+    
+    border-style: solid !important;
+    border-color:#353f46;
+    border-width: 4px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px 45px;
+    color : #353f46 !important;
+
+}
+
+
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+
+  
+.navbar-light .navbar-nav .nav-link {
+color: rgb(255, 255, 255) !important;
+}
+.blacky{
+
+    color:rgb(0, 0, 0)
+
+}
+.intro{
+
+    padding: 0px 2px;
+    background-color: rgba(61, 56, 56, 0.5) !important;
+    font-weight: 300;
+}
+
+.textintro{
+
+height: 70vh;
+padding-right: 0%;
+padding-left: 0%;
+
+}
+
+.white{
+
+color: rgb(255, 255, 255);
+
+}
+
+
+.services {
+   background-color: #4bcaff;
+   background-size: cover;
+
+ 
+ }
+.default-section{
+    background-color: #515f67 !important;
+    background-size: cover;
+}
+
+.undersc{
+
+    text-decoration-line: underline;
+    text-decoration-style: solid; 
+    text-underline-position: under;
+    
+}
+
+.services-title{
+
+font-weight: 300;
+
+
+
+}
+
+.text-services{
+
+    font-weight: bolder;
+}
+
+.thumbs{
+    
+    width : 240px;
+    height: 240px;
+    background-position: center;
+    padding: 2px;
+
+
+}
+
+.johndoe{
+
+    background: url("images/whois.jpg") center center no-repeat;
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.contact{
+
+    background: url("images/pipe2.jpg") center center no-repeat;
+    background-size: cover;
+
+}
+
+.johndoetypo{
+
+    font-weight: 400;
+
+}
+.social2{
+
+    
+    border-style: solid !important;
+    border-color:#ffffff;
+    border-width: 3px;
+    margin-left: 5px;
+  
+
+}
+.foot{
+    background-color: hsl(201, 19%, 30%);
+
+}
+
+.gallery{
+    width: 250px;
+    height: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 5px;
+
+
+}
+
+.footermenu{
+
+    color: rgb(155, 155, 155)
+}
+      
+input,
+textarea {
+   background: rgba(255, 255, 255, 0) !important;
+   border-color: white;
+   border-width: 2px;
+}
+.messagebtn{
+    border-color: rgb(15, 202, 235)!important;
+    background-color: rgb(15, 202, 235)!important;
+    padding: 15px 125px;
+    color : #ffffff !important;
+}
+
+.contact{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.azerty{
+    background-color: rgba(36, 110, 179, 0.521);
+}
